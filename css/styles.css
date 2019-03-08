@@ -49,9 +49,9 @@ padding-bottom: 3rem;
 }
 
 .footer-txt{
-
-  padding-top: 20px;
-  bottom: 0px;
+/* color: grey; */
+  /* padding-top: 20px;
+  bottom: 0px; */
 
 }
 
@@ -109,7 +109,7 @@ padding-bottom: 3rem;
 
 }
 .footer-bottom{
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0
@@ -120,4 +120,13 @@ padding-bottom: 3rem;
   background-color: #729d39;
   padding-bottom: 3rem;
   color: #fff;
+}
+@media screen (max-width :800px)) {
+
+}
+@media only screen and (max-width: 800px) {
+  .centre-media{
+    text-align: center;
+    align-items: center;
+  }
 }
